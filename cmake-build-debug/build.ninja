@@ -370,6 +370,336 @@ build D1_Solution2043.exe: CXX_EXECUTABLE_LINKER__D1_Solution2043_Debug CMakeFil
   TARGET_IMPLIB = libD1_Solution2043.dll.a
   TARGET_PDB = D1_Solution2043.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2046
+
+
+#############################################
+# Order-only phony target for D1_Solution2046
+
+build cmake_object_order_depends_target_D1_Solution2046: phony || CMakeFiles/D1_Solution2046.dir
+
+build CMakeFiles/D1_Solution2046.dir/D1/Solution2046.cpp.obj: CXX_COMPILER__D1_Solution2046_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2046.cpp || cmake_object_order_depends_target_D1_Solution2046
+  DEP_FILE = CMakeFiles\D1_Solution2046.dir\D1\Solution2046.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2046.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2046.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2046
+
+
+#############################################
+# Link the executable D1_Solution2046.exe
+
+build D1_Solution2046.exe: CXX_EXECUTABLE_LINKER__D1_Solution2046_Debug CMakeFiles/D1_Solution2046.dir/D1/Solution2046.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2046.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2046.exe
+  TARGET_IMPLIB = libD1_Solution2046.dll.a
+  TARGET_PDB = D1_Solution2046.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2047
+
+
+#############################################
+# Order-only phony target for D1_Solution2047
+
+build cmake_object_order_depends_target_D1_Solution2047: phony || CMakeFiles/D1_Solution2047.dir
+
+build CMakeFiles/D1_Solution2047.dir/D1/Solution2047.cpp.obj: CXX_COMPILER__D1_Solution2047_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2047.cpp || cmake_object_order_depends_target_D1_Solution2047
+  DEP_FILE = CMakeFiles\D1_Solution2047.dir\D1\Solution2047.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2047.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2047.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2047
+
+
+#############################################
+# Link the executable D1_Solution2047.exe
+
+build D1_Solution2047.exe: CXX_EXECUTABLE_LINKER__D1_Solution2047_Debug CMakeFiles/D1_Solution2047.dir/D1/Solution2047.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2047.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2047.exe
+  TARGET_IMPLIB = libD1_Solution2047.dll.a
+  TARGET_PDB = D1_Solution2047.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2050
+
+
+#############################################
+# Order-only phony target for D1_Solution2050
+
+build cmake_object_order_depends_target_D1_Solution2050: phony || CMakeFiles/D1_Solution2050.dir
+
+build CMakeFiles/D1_Solution2050.dir/D1/Solution2050.cpp.obj: CXX_COMPILER__D1_Solution2050_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2050.cpp || cmake_object_order_depends_target_D1_Solution2050
+  DEP_FILE = CMakeFiles\D1_Solution2050.dir\D1\Solution2050.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2050.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2050.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2050
+
+
+#############################################
+# Link the executable D1_Solution2050.exe
+
+build D1_Solution2050.exe: CXX_EXECUTABLE_LINKER__D1_Solution2050_Debug CMakeFiles/D1_Solution2050.dir/D1/Solution2050.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2050.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2050.exe
+  TARGET_IMPLIB = libD1_Solution2050.dll.a
+  TARGET_PDB = D1_Solution2050.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2056
+
+
+#############################################
+# Order-only phony target for D1_Solution2056
+
+build cmake_object_order_depends_target_D1_Solution2056: phony || CMakeFiles/D1_Solution2056.dir
+
+build CMakeFiles/D1_Solution2056.dir/D1/Solution2056.cpp.obj: CXX_COMPILER__D1_Solution2056_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2056.cpp || cmake_object_order_depends_target_D1_Solution2056
+  DEP_FILE = CMakeFiles\D1_Solution2056.dir\D1\Solution2056.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2056.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2056.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2056
+
+
+#############################################
+# Link the executable D1_Solution2056.exe
+
+build D1_Solution2056.exe: CXX_EXECUTABLE_LINKER__D1_Solution2056_Debug CMakeFiles/D1_Solution2056.dir/D1/Solution2056.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2056.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2056.exe
+  TARGET_IMPLIB = libD1_Solution2056.dll.a
+  TARGET_PDB = D1_Solution2056.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2058
+
+
+#############################################
+# Order-only phony target for D1_Solution2058
+
+build cmake_object_order_depends_target_D1_Solution2058: phony || CMakeFiles/D1_Solution2058.dir
+
+build CMakeFiles/D1_Solution2058.dir/D1/Solution2058.cpp.obj: CXX_COMPILER__D1_Solution2058_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2058.cpp || cmake_object_order_depends_target_D1_Solution2058
+  DEP_FILE = CMakeFiles\D1_Solution2058.dir\D1\Solution2058.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2058.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2058.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2058
+
+
+#############################################
+# Link the executable D1_Solution2058.exe
+
+build D1_Solution2058.exe: CXX_EXECUTABLE_LINKER__D1_Solution2058_Debug CMakeFiles/D1_Solution2058.dir/D1/Solution2058.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2058.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2058.exe
+  TARGET_IMPLIB = libD1_Solution2058.dll.a
+  TARGET_PDB = D1_Solution2058.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2063
+
+
+#############################################
+# Order-only phony target for D1_Solution2063
+
+build cmake_object_order_depends_target_D1_Solution2063: phony || CMakeFiles/D1_Solution2063.dir
+
+build CMakeFiles/D1_Solution2063.dir/D1/Solution2063.cpp.obj: CXX_COMPILER__D1_Solution2063_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2063.cpp || cmake_object_order_depends_target_D1_Solution2063
+  DEP_FILE = CMakeFiles\D1_Solution2063.dir\D1\Solution2063.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2063.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2063.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2063
+
+
+#############################################
+# Link the executable D1_Solution2063.exe
+
+build D1_Solution2063.exe: CXX_EXECUTABLE_LINKER__D1_Solution2063_Debug CMakeFiles/D1_Solution2063.dir/D1/Solution2063.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2063.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2063.exe
+  TARGET_IMPLIB = libD1_Solution2063.dll.a
+  TARGET_PDB = D1_Solution2063.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2068
+
+
+#############################################
+# Order-only phony target for D1_Solution2068
+
+build cmake_object_order_depends_target_D1_Solution2068: phony || CMakeFiles/D1_Solution2068.dir
+
+build CMakeFiles/D1_Solution2068.dir/D1/Solution2068.cpp.obj: CXX_COMPILER__D1_Solution2068_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2068.cpp || cmake_object_order_depends_target_D1_Solution2068
+  DEP_FILE = CMakeFiles\D1_Solution2068.dir\D1\Solution2068.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2068.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2068.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2068
+
+
+#############################################
+# Link the executable D1_Solution2068.exe
+
+build D1_Solution2068.exe: CXX_EXECUTABLE_LINKER__D1_Solution2068_Debug CMakeFiles/D1_Solution2068.dir/D1/Solution2068.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2068.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2068.exe
+  TARGET_IMPLIB = libD1_Solution2068.dll.a
+  TARGET_PDB = D1_Solution2068.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2070
+
+
+#############################################
+# Order-only phony target for D1_Solution2070
+
+build cmake_object_order_depends_target_D1_Solution2070: phony || CMakeFiles/D1_Solution2070.dir
+
+build CMakeFiles/D1_Solution2070.dir/D1/Solution2070.cpp.obj: CXX_COMPILER__D1_Solution2070_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2070.cpp || cmake_object_order_depends_target_D1_Solution2070
+  DEP_FILE = CMakeFiles\D1_Solution2070.dir\D1\Solution2070.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2070.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2070.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2070
+
+
+#############################################
+# Link the executable D1_Solution2070.exe
+
+build D1_Solution2070.exe: CXX_EXECUTABLE_LINKER__D1_Solution2070_Debug CMakeFiles/D1_Solution2070.dir/D1/Solution2070.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2070.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2070.exe
+  TARGET_IMPLIB = libD1_Solution2070.dll.a
+  TARGET_PDB = D1_Solution2070.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2071
+
+
+#############################################
+# Order-only phony target for D1_Solution2071
+
+build cmake_object_order_depends_target_D1_Solution2071: phony || CMakeFiles/D1_Solution2071.dir
+
+build CMakeFiles/D1_Solution2071.dir/D1/Solution2071.cpp.obj: CXX_COMPILER__D1_Solution2071_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2071.cpp || cmake_object_order_depends_target_D1_Solution2071
+  DEP_FILE = CMakeFiles\D1_Solution2071.dir\D1\Solution2071.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2071.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2071.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2071
+
+
+#############################################
+# Link the executable D1_Solution2071.exe
+
+build D1_Solution2071.exe: CXX_EXECUTABLE_LINKER__D1_Solution2071_Debug CMakeFiles/D1_Solution2071.dir/D1/Solution2071.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2071.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2071.exe
+  TARGET_IMPLIB = libD1_Solution2071.dll.a
+  TARGET_PDB = D1_Solution2071.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D1_Solution2072
+
+
+#############################################
+# Order-only phony target for D1_Solution2072
+
+build cmake_object_order_depends_target_D1_Solution2072: phony || CMakeFiles/D1_Solution2072.dir
+
+build CMakeFiles/D1_Solution2072.dir/D1/Solution2072.cpp.obj: CXX_COMPILER__D1_Solution2072_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D1/Solution2072.cpp || cmake_object_order_depends_target_D1_Solution2072
+  DEP_FILE = CMakeFiles\D1_Solution2072.dir\D1\Solution2072.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\D1_Solution2072.dir
+  OBJECT_FILE_DIR = CMakeFiles\D1_Solution2072.dir\D1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D1_Solution2072
+
+
+#############################################
+# Link the executable D1_Solution2072.exe
+
+build D1_Solution2072.exe: CXX_EXECUTABLE_LINKER__D1_Solution2072_Debug CMakeFiles/D1_Solution2072.dir/D1/Solution2072.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\D1_Solution2072.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = D1_Solution2072.exe
+  TARGET_IMPLIB = libD1_Solution2072.dll.a
+  TARGET_PDB = D1_Solution2072.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -416,6 +746,26 @@ build D1_Solution2029: phony D1_Solution2029.exe
 
 build D1_Solution2043: phony D1_Solution2043.exe
 
+build D1_Solution2046: phony D1_Solution2046.exe
+
+build D1_Solution2047: phony D1_Solution2047.exe
+
+build D1_Solution2050: phony D1_Solution2050.exe
+
+build D1_Solution2056: phony D1_Solution2056.exe
+
+build D1_Solution2058: phony D1_Solution2058.exe
+
+build D1_Solution2063: phony D1_Solution2063.exe
+
+build D1_Solution2068: phony D1_Solution2068.exe
+
+build D1_Solution2070: phony D1_Solution2070.exe
+
+build D1_Solution2071: phony D1_Solution2071.exe
+
+build D1_Solution2072: phony D1_Solution2072.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -424,7 +774,7 @@ build D1_Solution2043: phony D1_Solution2043.exe
 #############################################
 # Folder: C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug
 
-build all: phony D0_base.exe D0_printTest.exe D1_Solution1545.exe D1_Solution1933.exe D1_Solution1936.exe D1_Solution2019.exe D1_Solution2025.exe D1_Solution2027.exe D1_Solution2029.exe D1_Solution2043.exe
+build all: phony D0_base.exe D0_printTest.exe D1_Solution1545.exe D1_Solution1933.exe D1_Solution1936.exe D1_Solution2019.exe D1_Solution2025.exe D1_Solution2027.exe D1_Solution2029.exe D1_Solution2043.exe D1_Solution2046.exe D1_Solution2047.exe D1_Solution2050.exe D1_Solution2056.exe D1_Solution2058.exe D1_Solution2063.exe D1_Solution2068.exe D1_Solution2070.exe D1_Solution2071.exe D1_Solution2072.exe
 
 # =============================================================================
 # Built-in targets
