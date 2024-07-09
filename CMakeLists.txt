@@ -3,7 +3,20 @@ project(SWEA)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SWEA
-        D0/printTest.cpp)
+file(GLOB ALL_ITEMs "${CMAKE_SOURCE_DIR}/*")
+set(SUB_DIR)
 
-add_executable(D0_printTest D0/printTest.cpp)
+foreach (ITEM ${ALL_ITEMs})
+    if (IS_DIRECTORY ${ITEM})
+        list(APPEND SUB_DIR ${ITEM})
+    endif ()
+endforeach ()
+
+foreach (DIR ${SUB_DIR})
+    get_filename_component(NOW_LEVEL ${DIR} NAME_WE)
+    file(GLOB DIR_SOURCES "${DIR}/*.cpp")
+    foreach (SOURCE ${DIR_SOURCES})
+        get_filename_component(EXE_NAME ${SOURCE} NAME_WE)
+        add_executable("${NOW_LEVEL}_${EXE_NAME}" ${SOURCE})
+    endforeach ()
+endforeach ()

@@ -1,4 +1,12 @@
-C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/SWEA.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D0_base.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D0_printTest.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1545.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1933.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1936.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution2019.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution2025.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution2027.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution2029.dir
+C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution2043.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
