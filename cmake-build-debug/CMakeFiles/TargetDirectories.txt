@@ -1,5 +1,3 @@
-C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D0_base.dir
-C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D0_printTest.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1545.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1933.dir
 C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/CMakeFiles/D1_Solution1936.dir

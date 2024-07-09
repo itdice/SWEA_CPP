@@ -6,9 +6,16 @@ set(CMAKE_CXX_STANDARD 17)
 file(GLOB ALL_ITEMs "${CMAKE_SOURCE_DIR}/*")
 set(SUB_DIR)
 
+# exclude directory name
+set(EXCLUDE_LEVEL "D0")
+
 foreach (ITEM ${ALL_ITEMs})
     if (IS_DIRECTORY ${ITEM})
-        list(APPEND SUB_DIR ${ITEM})
+        get_filename_component(LEVEL ${ITEM} NAME_WE)
+        list(FIND EXCLUDE_LEVEL "${LEVEL}" INDEX)
+        if (INDEX EQUAL -1)
+            list(APPEND SUB_DIR ${ITEM})
+        endif ()
     endif ()
 endforeach ()
 

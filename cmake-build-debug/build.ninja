@@ -41,72 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target D0_base
-
-
-#############################################
-# Order-only phony target for D0_base
-
-build cmake_object_order_depends_target_D0_base: phony || CMakeFiles/D0_base.dir
-
-build CMakeFiles/D0_base.dir/D0/base.cpp.obj: CXX_COMPILER__D0_base_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D0/base.cpp || cmake_object_order_depends_target_D0_base
-  DEP_FILE = CMakeFiles\D0_base.dir\D0\base.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\D0_base.dir
-  OBJECT_FILE_DIR = CMakeFiles\D0_base.dir\D0
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target D0_base
-
-
-#############################################
-# Link the executable D0_base.exe
-
-build D0_base.exe: CXX_EXECUTABLE_LINKER__D0_base_Debug CMakeFiles/D0_base.dir/D0/base.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\D0_base.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = D0_base.exe
-  TARGET_IMPLIB = libD0_base.dll.a
-  TARGET_PDB = D0_base.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target D0_printTest
-
-
-#############################################
-# Order-only phony target for D0_printTest
-
-build cmake_object_order_depends_target_D0_printTest: phony || CMakeFiles/D0_printTest.dir
-
-build CMakeFiles/D0_printTest.dir/D0/printTest.cpp.obj: CXX_COMPILER__D0_printTest_unscanned_Debug C$:/Users/SSAFY/CLionProjects/SWEA/D0/printTest.cpp || cmake_object_order_depends_target_D0_printTest
-  DEP_FILE = CMakeFiles\D0_printTest.dir\D0\printTest.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\D0_printTest.dir
-  OBJECT_FILE_DIR = CMakeFiles\D0_printTest.dir\D0
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target D0_printTest
-
-
-#############################################
-# Link the executable D0_printTest.exe
-
-build D0_printTest.exe: CXX_EXECUTABLE_LINKER__D0_printTest_Debug CMakeFiles/D0_printTest.dir/D0/printTest.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\D0_printTest.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = D0_printTest.exe
-  TARGET_IMPLIB = libD0_printTest.dll.a
-  TARGET_PDB = D0_printTest.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target D1_Solution1545
 
 
@@ -726,10 +660,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build D0_base: phony D0_base.exe
-
-build D0_printTest: phony D0_printTest.exe
-
 build D1_Solution1545: phony D1_Solution1545.exe
 
 build D1_Solution1933: phony D1_Solution1933.exe
@@ -774,7 +704,7 @@ build D1_Solution2072: phony D1_Solution2072.exe
 #############################################
 # Folder: C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug
 
-build all: phony D0_base.exe D0_printTest.exe D1_Solution1545.exe D1_Solution1933.exe D1_Solution1936.exe D1_Solution2019.exe D1_Solution2025.exe D1_Solution2027.exe D1_Solution2029.exe D1_Solution2043.exe D1_Solution2046.exe D1_Solution2047.exe D1_Solution2050.exe D1_Solution2056.exe D1_Solution2058.exe D1_Solution2063.exe D1_Solution2068.exe D1_Solution2070.exe D1_Solution2071.exe D1_Solution2072.exe
+build all: phony D1_Solution1545.exe D1_Solution1933.exe D1_Solution1936.exe D1_Solution2019.exe D1_Solution2025.exe D1_Solution2027.exe D1_Solution2029.exe D1_Solution2043.exe D1_Solution2046.exe D1_Solution2047.exe D1_Solution2050.exe D1_Solution2056.exe D1_Solution2058.exe D1_Solution2063.exe D1_Solution2068.exe D1_Solution2070.exe D1_Solution2071.exe D1_Solution2072.exe
 
 # =============================================================================
 # Built-in targets
