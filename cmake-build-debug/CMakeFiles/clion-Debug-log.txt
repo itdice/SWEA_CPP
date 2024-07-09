@@ -1,4 +1,17 @@
-"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\SSAFY\CLionProjects\SWEA -B C:\Users\SSAFY\CLionProjects\SWEA\cmake-build-debug
--- Configuring done (0.2s)
+"C:\Program Files\JetBrains\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\Workstation\Develop\SSAFY\CLion\SWEA -B E:\Workstation\Develop\SSAFY\CLion\SWEA\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.1.4/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+E:/Workstation/Develop/SSAFY/CLion/SWEA/.git;E:/Workstation/Develop/SSAFY/CLion/SWEA/.gitignore;E:/Workstation/Develop/SSAFY/CLion/SWEA/.idea;E:/Workstation/Develop/SSAFY/CLion/SWEA/CMakeLists.txt;E:/Workstation/Develop/SSAFY/CLion/SWEA/D0;E:/Workstation/Develop/SSAFY/CLion/SWEA/D1;E:/Workstation/Develop/SSAFY/CLion/SWEA/LICENSE;E:/Workstation/Develop/SSAFY/CLion/SWEA/README.md;E:/Workstation/Develop/SSAFY/CLion/SWEA/cmake-build-debug
+-- Configuring done (1.2s)
 -- Generating done (0.0s)
--- Build files have been written to: C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug
+-- Build files have been written to: E:/Workstation/Develop/SSAFY/CLion/SWEA/cmake-build-debug

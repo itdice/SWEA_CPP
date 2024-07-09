@@ -4,6 +4,7 @@ project(SWEA)
 set(CMAKE_CXX_STANDARD 17)
 
 file(GLOB ALL_ITEMs "${CMAKE_SOURCE_DIR}/*")
+message("${ALL_ITEMs}")
 set(SUB_DIR)
 
 # exclude directory name

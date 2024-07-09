@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/SSAFY/CLionProjects/SWEA
+# Install script for directory: E:/Workstation/Develop/SSAFY/CLion/SWEA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/SSAFY/CLionProjects/SWEA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Workstation/Develop/SSAFY/CLion/SWEA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
